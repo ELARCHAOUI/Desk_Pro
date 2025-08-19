@@ -4,7 +4,7 @@
 
 Les équipes de support client sont souvent submergées par un grand volume de tickets. Le tri manuel, la compréhension du problème, et la rédaction des premières réponses sont des tâches répétitives et chronophages qui ralentissent la résolution des problèmes.
 
-##  La Solution : ZenDesk Pro
+##  La Solution : Desk Pro
 
 ZenDesk Pro est un outil intelligent conçu pour augmenter l'efficacité des agents de support. En collant simplement le texte d'un ticket, l'agent obtient instantanément :
 1.  **Une Catégorisation Automatique :** Le ticket est classé dans la bonne catégorie (ex: "Debt collection", "Student loan") grâce à un modèle prédictif.
