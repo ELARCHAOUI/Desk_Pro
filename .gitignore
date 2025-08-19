@@ -1,14 +1,32 @@
-# Ignorer complètement le dossier de données
+# Fichiers de cache Python et Jupyter
+# Ces dossiers sont créés automatiquement et n'ont pas besoin d'être versionnés.
+__pycache__/
+.ipynb_checkpoints/
+
+# Dossiers d'environnement virtuel
+# Chaque développeur doit créer son propre environnement.
+.venv/
+venv/
+nlp_env/
+zendesk_env/
+
+# Dossiers de configuration de l'éditeur de code (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# --- RÈGLES LES PLUS IMPORTANTES POUR LA DATA SCIENCE ---
+
+# 1. Ignorer complètement le dossier de données
+# Les données brutes ne doivent jamais être sur GitHub.
+# Le README doit expliquer où les télécharger.
 data/
 
-# Ignorer les modèles entraînés et les artefacts
+# 2. Ignorer les modèles entraînés et les bases de données générées
+# Ces fichiers sont lourds et sont des "artefacts" créés par le code.
 *.pkl
 *.keras
 *.db
 
-# Ignorer les dossiers de cache et d'environnement
-__pycache__/
-.ipynb_checkpoints/
-.venv/
-nlp_env/
-zendesk_env/
+# Fichiers système (macOS et Windows)
+.DS_Store
+Thumbs.db

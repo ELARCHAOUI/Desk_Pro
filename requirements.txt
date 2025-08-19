@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+lightgbm
+streamlit
+google-generativeai
+jupyterlab
+tensorflow
+sentence-transformers
+numpy
+notebook
+tf-keras
