@@ -1,0 +1,14 @@
+# Ignorer complètement le dossier de données
+data/
+
+# Ignorer les modèles entraînés et les artefacts
+*.pkl
+*.keras
+*.db
+
+# Ignorer les dossiers de cache et d'environnement
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+nlp_env/
+zendesk_env/
